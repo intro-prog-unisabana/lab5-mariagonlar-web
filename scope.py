@@ -3,7 +3,7 @@ int_value = None
 str_value = None
 
 def set_globals(some_int, some_str):
-    int_value, str_value
+    global int_value, str_value
     int_value = some_int
     str_value = some_str
 
